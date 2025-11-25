@@ -51,12 +51,6 @@ func NewInfoAPI(isMainnet bool) *InfoAPI {
 		baseEndpoint: "/info",
 		Client:       *NewClient(isMainnet),
 	}
-	spotMeta, err := api.BuildSpotMetaMap()
-	if err != nil {
-		api.SetDebugActive()
-		api.debug("Error building meta map: %s", err)
-	}
-	api.spotMeta = spotMeta
 	return &api
 }
 

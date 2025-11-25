@@ -49,21 +49,6 @@ func NewExchangeAPI(isMainnet bool) *ExchangeAPI {
 		infoAPI:      NewInfoAPI(isMainnet),
 		address:      "",
 	}
-	// turn on debug mode if there is an error with /info service
-	meta, err := api.infoAPI.BuildMetaMap()
-	if err != nil {
-		api.SetDebugActive()
-		api.debug("Error building meta map: %s", err)
-	}
-	api.meta = meta
-
-	spotMeta, err := api.infoAPI.BuildSpotMetaMap()
-	if err != nil {
-		api.SetDebugActive()
-		api.debug("Error building spot meta map: %s", err)
-	}
-	api.spotMeta = spotMeta
-
 	return &api
 }
 

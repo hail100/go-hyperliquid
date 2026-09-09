@@ -179,17 +179,17 @@ Thanks to all the people who have contributed to this project! 🎉
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/prasiman">
-                    <img src="https://avatars.githubusercontent.com/u/8805410?v=4" width="100;" alt="prasiman"/>
-                    <br />
-                    <sub><b>Prasetyo Iman Nugroho</b></sub>
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://github.com/hail100">
                     <img src="https://avatars.githubusercontent.com/u/7278395?v=4" width="100;" alt="hail100"/>
                     <br />
                     <sub><b>hail100</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/prasiman">
+                    <img src="https://avatars.githubusercontent.com/u/8805410?v=4" width="100;" alt="prasiman"/>
+                    <br />
+                    <sub><b>Prasetyo Iman Nugroho</b></sub>
                 </a>
             </td>
             <td align="center">
